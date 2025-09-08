@@ -51,6 +51,7 @@ module.exports = {
     ]
   },
   optimization: {
-    minimize: false
+    minimize: true,
+    concatenateModules: false
   }
 };
